@@ -1,5 +1,5 @@
 
-public class Vaca extends Mamifero{
+public final class Vaca extends Mamifero{
     
     private boolean TemLeite;
     
@@ -16,6 +16,11 @@ public class Vaca extends Mamifero{
     public void setTemLeite(boolean TL) {
         this.TemLeite = TL;
     }
+
+    /**
+     *
+     */
+    @Override
     public void talk(){
     
         System.out.println("Muuu");

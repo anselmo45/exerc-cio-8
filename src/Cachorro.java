@@ -1,5 +1,5 @@
 
-public class Cachorro extends Mamifero{
+public final class Cachorro extends Mamifero{
     
     private boolean Latealto;
     
@@ -16,6 +16,7 @@ public class Cachorro extends Mamifero{
     public void setLatealto(boolean LT) {
         this.Latealto = LT;
     }
+    @Override
     public void talk(){
     
         System.out.println("Au, Au");
